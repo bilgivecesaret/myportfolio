@@ -4,43 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>My Autobiography</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            min-height: 90vh;
+            background-color: #f1f1f1;
+        }
+        .outerborder{
+            margin: 2%;
+            border: 5px #000000 solid;
+            border-radius: 10px; 
+            background-color: white;          
+        }
+        .innerborder{
+            margin: 5%;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 10px;
+            background-color: whitesmoke;
+        }
+        .header{
+            margin: 1%;
+            padding: 2%;
+            color: blue;
+            text-shadow: 2px 2px 5px cadetblue ;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .txt{
+            margin: 1%;
+            padding: 2%;
+            text-indent: 5%;
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
-    <header id="header">
-        <div id="toggle"></div>
-        <div id="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-            </ul>
+    <div class="outerborder">
+        <div class="innerborder">
+            <h1 class="header">UĞUR ÖZKAN</h1>
+            <p class="txt"> 
+                Hello. I'm Uğur Özkan. I have always had a deep interest in software. 
+                This interest eventually led me to become an engineer. 
+                My fascination with software development began in high school. 
+                I bought my first computer in last year of high school. 
+                At that time, the operating system was Windows 98. 
+                My first coding experience started with MS-DOS. 
+                I learned many commands by trial and error. 
+                Then I started using Microsoft FrontPage and made my first web page attempts. 
+                While studying Mathematics at Pamukkale University, 
+                I took Fortran and C++ programming courses. After graduating from university, 
+                I continued my career as a math teacher. After continuing my career as a teacher for a while, 
+                I changed my career and continued my career journey as a police officer. 
+                During the years I worked as a police officer, I did jobs such as computer setup, 
+                software installation, adding resources such as computers, printers, scanners, 
+                photocopiers to the network, granting access to resources on the network, 
+                monitoring resource usage traffic of users on the network, PDA device setups, 
+                network setup, etc. Outside of work, I am a passionate traveler. 
+                I enjoy hiking in nature and tasting local food in the places I travel to. 
+                I am always eager to learn and believe that curiosity is the key to both personal and professional growth.
+            </p>
         </div>
-    </header>
-    <section id="aboutme">
-        <h1>WHO IS UĞUR ÖZKAN ?</h1>
-        <p> 
-            My name is Uğur Özkan. I have always had a deep interest in software. 
-            This interest eventually led me to become an engineer. 
-            My fascination with software development began in high school. 
-            I bought my first computer in last year of high school. 
-            At that time, the operating system was Windows 98. 
-            My first coding experience started with MS-DOS. 
-            I learned many commands by trial and error. 
-            Then I started using Microsoft FrontPage and made my first web page attempts. 
-            While studying Mathematics at Pamukkale University, 
-            I took Fortran and C++ programming courses. After graduating from university, 
-            I continued my career as a math teacher. After continuing my career as a teacher for a while, 
-            I changed my career and continued my career journey as a police officer. 
-            During the years I worked as a police officer, I did jobs such as computer setup, 
-            software installation, adding resources such as computers, printers, scanners, 
-            photocopiers to the network, granting access to resources on the network, 
-            monitoring resource usage traffic of users on the network, PDA device setups, 
-            network setup, etc. Outside of work, I am a passionate traveler. 
-            I enjoy hiking in nature and tasting local food in the places I travel to. 
-            I am always eager to learn and believe that curiosity is the key to both personal and professional growth.
-        </p>
-    </section>
-    <script src="navbar.js"></script>
+    </div>
 </body>
 </html>
